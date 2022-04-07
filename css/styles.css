@@ -2,3 +2,28 @@ body {
   font-family: 'Roboto', Tahoma, sans-serif;
   color: #ffffff;
 }
+
+.list {
+  list-style: none;
+}
+
+
+/* ----------------------main-Nav-------------------------- */
+.main-nav {
+} /* --------------------main-nav-logo-------------------------- */
+.main-nav-logo {
+}
+/* ----------------------main-nav-list-item -------------------------- */
+.main-nav-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14
+  letter-spacing: 0.02em;
+  color: #212121;
+
+}
+
+.main-nav-list-item :hover, .main-nav-list-item :focus {
+ color:#2196F3; 
+}
+

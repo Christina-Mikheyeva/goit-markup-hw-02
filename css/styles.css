@@ -1,29 +1,66 @@
+
+:root {
+--main-text-color: #212121;
+--secod-text-color: #757575;
+--accent-color: #2196F3;
+
+}
+
+
+
 body {
-  font-family: 'Roboto', Tahoma, sans-serif;
-  color: #ffffff;
+font-family: 'Roboto', Tahoma, sans-serif;
+}
+
+.link{
+text-decoration: none;
 }
 
 .list {
-  list-style: none;
+list-style: none;
 }
 
 
-/* ----------------------main-Nav-------------------------- */
-.main-nav {
-} /* --------------------main-nav-logo-------------------------- */
-.main-nav-logo {
+
+/* ---------------------Header-------------------------- */
+.header-main-nav {
+} 
+
+
+
+.header-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
-/* ----------------------main-nav-list-item -------------------------- */
-.main-nav-list-item {
+
+.web{
+  color: black;
+}
+
+.studio{
+  color: var(--accent-color);
+}
+
+.header-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14
   letter-spacing: 0.02em;
-  color: #212121;
+  color:var(--main-text-color)  
 
 }
 
-.main-nav-list-item :hover, .main-nav-list-item :focus {
+.header-list-item :hover, .header-list-item :focus {
  color:#2196F3; 
 }
 
+.hedaer-contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secod-text-color);
+}

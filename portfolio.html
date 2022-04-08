@@ -16,18 +16,18 @@
 
   <body>
     <!-- Шапка сторінки -->
-    <header class="header link list">
+    <header class="header link">
       <!-- Навігація -->
       <nav class="header-main-nav">
         <!-- Логотип -->
-        <a class="header-logo" href="/">
+        <a class="header-logo link" href="/">
           <span class="web">Web</span><span class="studio">Studio</span></a
         >
         <!-- Список-1 -->
-        <ul class="header-list-item list link">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="header-list list">
+          <li><a class="header-item link" href="./index.html">Студия</a></li>
+          <li><a class="header-item link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="header-item link" href="">Контакты</a></li>
         </ul>
       </nav>
 
@@ -41,80 +41,114 @@
     <!-- Унікальний контент -->
     <main>
       <!-- Список кнопок -->
-      <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+      <ul class="main-btn-list">
+        <li><button class="mains-btns" type="button">Все</button></li>
+        <li><button class="mains-btns" type="button">Веб-сайты</button></li>
+        <li><button class="mains-btns" type="button">Приложения</button></li>
+        <li><button class="mains-btns" type="button">Дизайн</button></li>
+        <li><button class="mains-btns" type="button">Маркетинг</button></li>
       </ul>
 
       <!-- Список продуктових карток -->
-      <ul>
+      <ul class="main-product-list list">
         <li>
           <img
+            class="main-product-img"
             src="images/laptop_with_people_on_the_scrin.jpg"
             alt="Ноутбук із зображенням людей"
             width="370"
             height="294"
           />
-          <h2>Технокряк</h2>
-          <p>Веб-сайт</p>
+          <h2 class="main-product-name">Технокряк</h2>
+          <p class="main-product-secondname">Веб-сайт</p>
         </li>
         <li>
           <img
+            class="main-product-img"
             src="images/Two_basketball_players.jpg"
             alt="Два баскетбольних гравця"
             width="370"
             height="294"
           />
-          <h2>Постер <span lang="en">Orlean vs Golden Star</span></h2>
-          <p>Дизайн</p>
+          <h2 class="main-product-name">Постер <span lang="en">Orlean vs Golden Star</span></h2>
+          <p class="main-product-secondname">Дизайн</p>
         </li>
         <li>
           <img
+            class="main-product-img"
             src="images/The_Seafood_restaurant.jpg"
             alt="Емблема ресторану"
             width="370"
             height="294"
           />
-          <h2>Ресторан <span lang="en">Seafood></span></h2>
-          <p>Приложение</p>
-        </li>
-        <li>
-          <img src="./images/headphones.jpg" alt="Навушники" width="370" height="294" />
-          <h2>Проект <span lang="en">Prime</span></h2>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img src="./images/two_boxes.jpg" alt="Дві коробки" width="370" height="294" />
-          <h2>Проект <span lang="en">Boxesh2</span></h2>
-          <p>Приложение</p>
-        </li>
-        <li>
-          <img src="./images/Big_scrin.jpg" alt="Великий екран" width="370" height="294" />
-          <h2><span lang="en">Inspiration has no Borders</span></h2>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./images/Jornal.jpg" alt="Журнал" width="370" height="294" />
-          <h2>Издание <span lang="en">Limited Edition</span></h2>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img src="./images/lable.jpg" alt="Бирка" width="370" height="294" />
-          <h2>Проект LAB</h2>
-          <p>Маркетинг</p>
+          <h2 class="main-product-name">Ресторан <span lang="en">Seafood></span></h2>
+          <p class="main-product-secondname">Приложение</p>
         </li>
         <li>
           <img
+            class="main-product-img"
+            src="./images/headphones.jpg"
+            alt="Навушники"
+            width="370"
+            height="294"
+          />
+          <h2 class="main-product-name">Проект <span lang="en">Prime</span></h2>
+          <p class="main-product-secondname">Маркетинг</p>
+        </li>
+        <li>
+          <img
+            class="main-product-img"
+            src="./images/two_boxes.jpg"
+            alt="Дві коробки"
+            width="370"
+            height="294"
+          />
+          <h2 class="main-product-name">Проект <span lang="en">Boxesh2</span></h2>
+          <p class="main-product-secondname">Приложение</p>
+        </li>
+        <li>
+          <img
+            class="main-product-img"
+            src="./images/Big_scrin.jpg"
+            alt="Великий екран"
+            width="370"
+            height="294"
+          />
+          <h2 class="main-product-name"><span lang="en">Inspiration has no Borders</span></h2>
+          <p class="main-product-secondname">Веб-сайт</p>
+        </li>
+        <li>
+          <img
+            class="main-product-img"
+            src="./images/Jornal.jpg"
+            alt="Журнал"
+            width="370"
+            height="294"
+          />
+          <h2 class="main-product-name">Издание <span lang="en">Limited Edition</span></h2>
+          <p class="main-product-secondname">Дизайн</p>
+        </li>
+        <li>
+          <img
+            class="main-product-img"
+            src="./images/lable.jpg"
+            alt="Бирка"
+            width="370"
+            height="294"
+          />
+          <h2 class="main-product-name">Проект LAB</h2>
+          <p class="main-product-secondname">Маркетинг</p>
+        </li>
+        <li>
+          <img
+            class="main-product-img"
             src="images/laptop_with_human_hands.jpg"
             alt="Лептоп з людськими руками які набирають текст"
             width="370"
             height="294"
           />
-          <h2><span lang="en">Growing Business</span></h2>
-          <p>Приложение</p>
+          <h2 class="main-product-name"><span lang="en">Growing Business</span></h2>
+          <p class="main-product-secondname">Приложение</p>
         </li>
       </ul>
     </main>

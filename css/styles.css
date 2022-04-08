@@ -3,21 +3,20 @@
 --main-text-color: #212121;
 --secod-text-color: #757575;
 --accent-color: #2196F3;
-
+--batton-style: 
 }
 
-
-
-body {
-font-family: 'Roboto', Tahoma, sans-serif;
-}
-
-.link{
+.link {
 text-decoration: none;
 }
 
 .list {
 list-style: none;
+}
+
+body {
+font-family: 'Roboto', Tahoma, sans-serif;
+
 }
 
 
@@ -26,7 +25,7 @@ list-style: none;
 .header-main-nav {
 } 
 
-
+/* ---------------------Header Logo---------------------- */
 
 .header-logo {
 font-family: 'Raleway';
@@ -43,8 +42,9 @@ letter-spacing: 0.03em;
 .studio{
   color: var(--accent-color);
 }
+/* ---------------------Header Navigation list----------------------- */
 
-.header-list-item {
+.header-list  {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14
@@ -53,14 +53,70 @@ letter-spacing: 0.03em;
 
 }
 
-.header-list-item :hover, .header-list-item :focus {
- color:#2196F3; 
+.header-list :hover, .header-list :focus {
+color: var(--accent-color); 
 }
 
-.hedaer-contacts {
+.header-item {
+
+}
+
+
+
+/* ---------------------Header Contacts----------------------- */
+
+
+.hedaer-contacts{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secod-text-color);
+}
+
+/* ---------------------List of Butons----------------------- */
+.main-btn-list {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.mains-btns:hover, .mains-btns:focus { 
+color: var(--accent-color);
+}
+
+
+/* --------------------List of Productions Cards------------- */
+
+.main-product-list {
+
+}
+
+.main-product-img {
+width: 370px;
+height: 294px;
+}
+
+
+
+.main-product-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color:var(--main-text-color)
+}
+
+
+.main-product-secondname {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--secod-text-color);
+
 }

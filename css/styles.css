@@ -77,7 +77,61 @@ letter-spacing: 0.02em;
 color: var(--secod-text-color);
 }
 
-/* ---------------------List of Butons----------------------- */
+
+/* ---------------------Main page.Hero---------------- */
+
+.hero {
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background-color: var(--main-background-color);
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.hero-btn {
+}
+
+/* ----------------Features.Section without name in maket------------------------------------ */
+
+.features {
+}
+.features-title-h2 {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color:var(--main-text-color)
+}
+.features-title-h3 {
+}
+.features-text {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------Portfolio.List of Butons---------------- */
 .main-btn-list {
 font-family: 'Roboto';
 font-weight: 500;

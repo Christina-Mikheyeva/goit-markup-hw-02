@@ -3,6 +3,8 @@
 --main-text-color: #212121;
 --secod-text-color: #757575;
 --accent-color: #2196F3;
+--main-background-color: #2F303A;
+
 --batton-style: 
 }
 
@@ -16,6 +18,7 @@ list-style: none;
 
 body {
 font-family: 'Roboto', Tahoma, sans-serif;
+background: #E5E5E5;
 
 }
 
@@ -118,5 +121,39 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--secod-text-color);
+
+}
+
+/* --------------------Footer----------------------------------- */
+
+.footer {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: var(--main-background-color);
+}
+
+.address-map {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.address-mail {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-phone {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+color: rgba(255, 255, 255, 0.6);
 
 }

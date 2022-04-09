@@ -4,8 +4,10 @@
 --secod-text-color: #757575;
 --accent-color: #2196F3;
 --main-background-color: #2F303A;
+--color-white: #ffffff; 
+--color-black: #000000; 
+--color-rgb: rgba(255, 255, 255, 0.6);
 
---batton-style: 
 }
 
 .link {
@@ -39,7 +41,7 @@ letter-spacing: 0.03em;
 }
 
 .web{
-  color: black;
+  color: var(--color-black);
 }
 
 .studio{
@@ -77,6 +79,8 @@ letter-spacing: 0.02em;
 color: var(--secod-text-color);
 }
 
+.hedaer-contacts :hover, .hedaer-contacts :focus {color: var(--accent-color);}
+
 
 /* ---------------------Main page.Hero---------------- */
 
@@ -94,7 +98,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--color-white);
 }
 
 
@@ -139,7 +143,7 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--color-white);
 }
 
 .mains-btns:hover, .mains-btns:focus { 
@@ -188,26 +192,25 @@ top: 2097px;
 background: var(--main-background-color);
 }
 
+.addres-list 
+
 .address-map {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--color-white);
 }
 .address-mail {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--color-rgb);
 }
 .address-phone {
-  font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-color: rgba(255, 255, 255, 0.6);
-
+color: var(--color-rgb);
 }

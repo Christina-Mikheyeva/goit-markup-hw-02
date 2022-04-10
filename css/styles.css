@@ -7,6 +7,7 @@
 --color-white: #ffffff; 
 --color-black: #000000; 
 --color-rgb: rgba(255, 255, 255, 0.6);
+--color-phon-section: #F5F4FA;
 
 }
 
@@ -55,8 +56,13 @@ letter-spacing: 0.03em;
   line-height: 1.14
   letter-spacing: 0.02em;
   color:var(--main-text-color)  
-
 }
+
+
+.header-list .current {
+  color: var(--accent-color);
+}
+
 
 .header-list :hover, .header-list :focus {
 color: var(--accent-color); 
@@ -65,7 +71,6 @@ color: var(--accent-color);
 .header-item {
 
 }
-
 
 
 /* ---------------------Header Contacts----------------------- */
@@ -91,6 +96,8 @@ left: 0px;
 top: 80px;
 background-color: var(--main-background-color);
 }
+
+
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -103,37 +110,121 @@ color: var(--color-white);
 
 
 .hero-btn {
+background-color: var(--accent-color); 
+color: var(--color-white);
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
+
+.hero-btn :focus {color: var(--accent-color);}
+
 
 /* ----------------Features.Section without name in maket------------------------------------ */
 
 .features {
 }
+
+
 .features-title-h2 {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+}
+
+.features-title-h3 {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color:var(--main-text-color)
 }
-.features-title-h3 {
-}
+
 .features-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secod-text-color);
+}
+
+
+/* -------------------------What we do?--------------------------- */
+
+
+.about-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+
+.about-img {
+width: 370px;
+height: 294px;
+}
+
+/* -------------------------Our team--------------------------- */
+
+.section-our-team {
+width: 1600px;
+height: 648px;
+background: var(--color-phon-section);
 }
 
 
 
+.team-title-h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+
+}
 
 
+.our-team-img {
+}
 
 
+.team-title-h3 {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
 
-
-
-
-
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secod-text-color);
+}
 
 /* ---------------------Portfolio.List of Butons---------------- */
 .main-btn-list {
@@ -192,9 +283,10 @@ top: 2097px;
 background: var(--main-background-color);
 }
 
-.addres-list 
+.addres-list { }
 
 .address-map {
+font-style: normal; 
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -202,6 +294,7 @@ letter-spacing: 0.03em;
 color: var(--color-white);
 }
 .address-mail {
+font-style: normal;   
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -209,6 +302,7 @@ letter-spacing: 0.03em;
 color: var(--color-rgb);
 }
 .address-phone {
+font-style: normal; 
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;

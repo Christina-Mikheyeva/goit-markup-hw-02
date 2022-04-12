@@ -8,6 +8,7 @@
 --color-black: #000000; 
 --color-rgb: rgba(255, 255, 255, 0.6);
 --color-phon-section: #F5F4FA;
+--main-bck-color: #E5E5E5;
 
 }
 
@@ -21,8 +22,9 @@ list-style: none;
 
 body {
 font-family: 'Roboto', Tahoma, sans-serif;
-background: #E5E5E5;
-
+font-size: 14px;
+letter-spacing: 0.03em;
+color: var(--secod-text-color);
 }
 
 
@@ -38,7 +40,6 @@ font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
 }
 
 .web{
@@ -52,7 +53,6 @@ letter-spacing: 0.03em;
 
 .header-list  {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14
   letter-spacing: 0.02em;
   color:var(--main-text-color)  
@@ -78,7 +78,6 @@ color: var(--accent-color);
 
 .hedaer-contacts{
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secod-text-color);
@@ -150,18 +149,14 @@ letter-spacing: 0.06em;
 
 .features-title-h3 {
 font-weight: 700;
-font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--main-text-color)
 }
 
 .features-text {
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: var(--secod-text-color);
 }
 
@@ -174,7 +169,6 @@ font-weight: 700;
 font-size: 36px;
 line-height: 42px;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
 
@@ -198,7 +192,6 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-text-color);
 
 }
@@ -213,7 +206,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
 
@@ -222,7 +214,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--secod-text-color);
 }
 
@@ -233,7 +224,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--color-white);
 }
 
@@ -268,7 +258,6 @@ color:var(--main-text-color)
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
-letter-spacing: 0.03em;
 color: var(--secod-text-color);
 
 }
@@ -288,23 +277,18 @@ background: var(--main-background-color);
 .address-map {
 font-style: normal; 
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: var(--color-white);
 }
 .address-mail {
 font-style: normal;   
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: var(--color-rgb);
 }
 .address-phone {
 font-style: normal; 
 font-weight: 400;
-font-size: 14px;
 line-height: 1.7;
 color: var(--color-rgb);
 }

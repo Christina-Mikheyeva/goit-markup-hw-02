@@ -1,0 +1,56 @@
+   
+   /* Accent color: #4D5AE5 
+    Main color: #434455 slat
+    Second color: #2E2F42 navy blue
+
+
+
+   */
+    
+   /* var{--iris-color}; */
+   
+   :root {
+    --iris-color: #4D5AE5;
+    --navy-blue-color: #2E2F42;
+    --slat-color: #434455;
+
+        
+    }
+    
+        
+    body {
+        background-color: #FFF;
+        color: #434455;        
+    }
+
+    a{
+        text-decoration: none;
+          }
+
+    ul{
+        list-style-type: none;
+    }
+
+  < !-- Header -->
+
+.header:focus,
+.header:hover {
+    color: var(--iris-color);
+
+}
+
+.navigation {
+    color: var(--navy-blue-color);
+}
+
+
+.text-web {
+    color: var(--iris-color);
+}
+
+.adress{
+    color: var(--slat-color);
+
+}
+
+

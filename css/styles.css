@@ -20,16 +20,18 @@
         text-decoration: none;
     }
 
-    ul {list-style-type: none;}
+    ul {list-style-type: none;
+    }
 
 /* Hrader */
 
-.page-header :focus {
-    color: var(--iris-color)
-}
-
 .logo{
     color: var(--navy-blue-color);
+}
+
+.logo:focus,
+.logo:hover {
+    color: var(--iris-color);
 }
 
 .text-web{
@@ -40,6 +42,21 @@
     color: var(--navy-blue-color)
 }
 
+.site-nav .link:focus,
+.site-nav .link:hover {
+color: var(--iris-color);
+}
+
 .adress .link {
     color: var(--slat-color);
 }
+
+.adress .link:focus,
+.adress .link:hover {
+    color: var(--iris-color);
+}
+
+/* Hero */
+
+/* < !-- Section 1 (Our Values)--> */
+

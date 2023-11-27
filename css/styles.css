@@ -56,7 +56,26 @@ color: var(--iris-color);
     color: var(--iris-color);
 }
 
-/* Hero */
+/* Section hero */
+
+.hero {
+    background-color: var(--navy-blue-color);
+}
+
+h1 {
+    color:white
+}
+
 
 /* < !-- Section 1 (Our Values)--> */
 
+.section-title {
+    color: var(--navy-blue-color);
+}
+
+.section-list h3 {
+    color: var(--navy-blue-color);
+}
+
+
+/* < !-- Section 2 (Our Team) --> */

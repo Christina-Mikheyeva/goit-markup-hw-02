@@ -22,10 +22,12 @@
           
             
     body {
-        font-family: 'Roboto', sans-serif;
         color: #434455;
         background-color: #FFF;
         
+        font-family: 'Roboto', sans-serif;
+        
+               
     }
 
     a {
@@ -48,10 +50,20 @@
     background-color: #fff;
     }
 
-/* Hrader */
+/* Header */
+
+/* Logo */
 
 .logo{
     color: var(--navy-blue-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+
 }
 
 .logo:focus,

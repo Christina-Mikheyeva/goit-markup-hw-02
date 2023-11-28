@@ -4,6 +4,13 @@
     Second color: #2E2F42 navy blue 
    */
 
+   /* Fonts::
+   Main ff: font-family: Roboto 400 500 700 (fs normal all)
+   Second ff: font-family: Raleway 700  (fs normal all)
+   */
+
+   
+
    :root {
     --iris-color: #4D5AE5;
     --navy-blue-color: #2E2F42;
@@ -15,8 +22,10 @@
           
             
     body {
+        font-family: 'Roboto', sans-serif;
+        color: #434455;
         background-color: #FFF;
-        color: #434455;  
+        
     }
 
     a {
@@ -24,6 +33,19 @@
     }
 
     ul {list-style-type: none;
+    }
+
+/* Button */
+    
+    .button {
+    color: white;
+    background-color: var(--iris-color);
+    }
+    
+    .button:focus,
+    .button:hover {
+    color: var(--iris-color);
+    background-color: #fff;
     }
 
 /* Hrader */
@@ -86,6 +108,16 @@ h1 {
 .section-team {
     background-color: var(--cloud-color);
 }
+
+/* Section 3 (Portfolio) */
+
+
+.section-list > li:focus,
+.section-list > li:hover
+ {
+    color: var(--iris-color);
+}
+
 
 /* < !-- Footer --> */
 

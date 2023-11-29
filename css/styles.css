@@ -13,6 +13,7 @@
 
    :root {
     --iris-color: #4D5AE5;
+    --ocean:#404BBF;
     --navy-blue-color: #2E2F42;
     --slat-color: #434455;
     --cloud-color: #F4F4FD;
@@ -45,7 +46,7 @@
 
 /* Logo */
 
-.logo{
+.logo {
     color: var(--navy-blue-color);
 
     font-family: 'Raleway', sans-serif;
@@ -58,11 +59,11 @@
 }
 
 .logo:focus,
-.logo:hover{
-    color: var(--iris-color);
+.logo:hover {
+    color: var(--ocean);
 }
 
-.text-web{
+.text-web {
     color: var(--iris-color)
 }
 
@@ -78,10 +79,10 @@
 
 .site-nav .link:focus,
 .site-nav .link:hover {
-    color: var(--iris-color);
+    color: var(--ocean);
 }
 
-.adress .link{
+.adress .link {
     color: var(--slat-color);
     font-size: 16px;
     font-style: normal;
@@ -91,7 +92,7 @@
 
 .adress .link:focus,
 .adress .link:hover {
-    color: var(--iris-color);
+    color: var(--ocean);
 }
 
 /* Section hero */
@@ -125,9 +126,8 @@
 
 .button:focus,
 .button:hover {
-    color: var(--iris-color);
-    background-color: #fff;
-}
+    background-color: var(--ocean);
+    }
 
 /* < !-- Section 1 (Our Values)--> */
 
@@ -138,6 +138,7 @@
     line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .section-list h3 {
@@ -163,15 +164,15 @@
 
 .section-list {
     background-color: #fff;
+    
 }
 
 /* Section 3 (Portfolio) */
 
 
-.portfolio > a:focus,
-.portfolio > a:hover
- {
-    color: var(--iris-color);
+.portfolio a:focus,
+.portfolio a:hover {
+    color: var(--ocean);
    
 }
 
@@ -183,16 +184,16 @@
     }
 
 .text-studio,
-.footer-text{
+.footer-text {
     color: var(--cloud-color);
 }
 
 .text-studio:focus,
 .text-studio:hover {
-    color: var(--iris-color);
+    color: var(--ocean);
     }
 
-    .footer-text{
+.footer-text {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.32px;

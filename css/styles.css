@@ -24,9 +24,8 @@
     body {
         color: #434455;
         background-color: #FFF;
-        
         font-family: 'Roboto', sans-serif;
-                       
+                   
     }
 
     a {
@@ -34,21 +33,11 @@
         
     }
 
-    ul {list-style-type: none;
+    ul {
+        list-style-type: none;
     }
 
-/* Button */
-    
-    .button {
-    color: white;
-    background-color: var(--iris-color);
-    }
-    
-    .button:focus,
-    .button:hover {
-    color: var(--iris-color);
-    background-color: #fff;
-    }
+
 
 /* Header */
 
@@ -79,6 +68,7 @@
 
 .site-nav .link {
     color: var(--navy-blue-color);
+    
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -87,18 +77,15 @@
 
 .site-nav .link:focus,
 .site-nav .link:hover {
-color: var(--iris-color);
+    color: var(--iris-color);
 }
 
 .adress .link {
     color: var(--slat-color);
-    font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .adress .link:focus,
@@ -112,21 +99,61 @@ color: var(--iris-color);
     background-color: var(--navy-blue-color);
 }
 
-h1 {
-    color:white
+.hero-title {
+    color:white;
+    
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 1.12px;
+    text-align: center;
 }
 
+/* Button */
+
+.button {
+    color: white;
+    background-color: var(--iris-color);
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5px;
+    letter-spacing: 0.64px;
+    text-align: center;
+
+}
+
+.button:focus,
+.button:hover {
+    color: var(--iris-color);
+    background-color: #fff;
+}
 
 /* < !-- Section 1 (Our Values)--> */
 
 .section-title {
     color: var(--navy-blue-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .section-list h3 {
     color: var(--navy-blue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 
+.section-list p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
 
 /* < !-- Section 2 (Our Team) --> */
 

@@ -30,6 +30,7 @@
 
     a {
         text-decoration: none;
+        color: var(--slat-color);
         
     }
 
@@ -114,13 +115,12 @@
 .button {
     color: white;
     background-color: var(--iris-color);
-    
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5px;
     letter-spacing: 0.64px;
-    text-align: center;
-
+    
 }
 
 .button:focus,
@@ -155,21 +155,26 @@
     letter-spacing: 0.32px;
 }
 
+
 /* < !-- Section 2 (Our Team) --> */
 
 .section-team {
     background-color: var(--cloud-color);
 }
 
+.section-list {
+    background-color: #fff;
+}
+
 /* Section 3 (Portfolio) */
 
 
-/* .portfolio > li:focus,
-.portfolio > li:hover
+.portfolio > a:focus,
+.portfolio > a:hover
  {
     color: var(--iris-color);
    
-} */
+}
 
 
 /* < !-- Footer --> */
@@ -188,3 +193,9 @@
     color: var(--iris-color);
     }
 
+    .footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    }

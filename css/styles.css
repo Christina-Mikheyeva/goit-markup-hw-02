@@ -25,7 +25,9 @@
     body {
         color: #434455;
         background-color: #FFF;
+
         font-family: 'Roboto', sans-serif;
+        font-size: 16px;
         line-height: 1.5;
                           
     }
@@ -72,7 +74,6 @@
 .site-nav .link {
     color: var(--navy-blue-color);
     
-    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.32px;
 }
@@ -84,7 +85,7 @@
 
 .adress .link {
     color: var(--slat-color);
-    font-size: 16px;
+    
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.32px;
@@ -150,7 +151,7 @@
 }
 
 .section-list p {
-    font-size: 16px;
+    
     font-weight: 400;
     letter-spacing: 0.32px;
 }
@@ -162,9 +163,8 @@
     background-color: var(--cloud-color);
 }
 
-.section-list {
+.section-card {
     background-color: #fff;
-    
 }
 
 /* Section 3 (Portfolio) */
@@ -173,8 +173,7 @@
 .portfolio a:focus,
 .portfolio a:hover {
     color: var(--ocean);
-   
-}
+   }
 
 
 /* < !-- Footer --> */
@@ -195,6 +194,5 @@
 
 .footer-text {
     font-weight: 400;
-    font-size: 16px;
     letter-spacing: 0.32px;
     }
